@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<services>
+    <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
+        <servicesKeys>
+            <keyDetails collectionKey="SIQACloudStreamsTests:createAccountConnectorService" connectorServiceName="SIQACloudStreamsTests:createAccountConnectorService"/>
+            <keyDetails collectionKey="SIQACloudStreamsTests:deleteAccountConnectorService" connectorServiceName="SIQACloudStreamsTests:deleteAccountConnectorService"/>
+            <keyDetails collectionKey="SIQACloudStreamsTests:retrieveAccountConnectorService" connectorServiceName="SIQACloudStreamsTests:retrieveAccountConnectorService"/>
+        </servicesKeys>
+    </cloudstreamsCollectionKeys>
+</services>
