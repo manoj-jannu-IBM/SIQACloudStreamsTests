@@ -5,7 +5,7 @@
 
   <!-- nodes -->
 
-<INVOKE TIMEOUT="" SERVICE="SIQACloudStreamsTests:createAccountConnectorService" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="SIQACloudStreamsTests.services53:createAccountConnectorService53" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -29,7 +29,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">createAccountConnectorServiceInput</value>
+        <value name="field_name">createAccountConnectorService53Input</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -87,8 +87,8 @@
                     <value name="field_xmlns">urn:partner.soap.sforce.com</value>
                     <value name="form_qualified">false</value>
                     <value name="is_global">false</value>
-                    <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                    <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
+                    <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
+                    <value name="docTypeDomain">da903c0b8a5748579d0f9b5a9d2afba2</value>
                     <value name="is_soap_array_encoding_used">false</value>
                     <array name="rec_fields" type="record" depth="1">
                       <record javaclass="com.wm.util.Values">
@@ -164,7 +164,7 @@
                               <value name="ncName">ID</value>
                             </record>
                           </array>
-                          <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
+                          <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
                         </record>
                         <value name="nillable">true</value>
                         <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
@@ -252,6 +252,7 @@
                     </record>
                     <value name="schemaRegistered">true</value>
                     <value name="modifiable">true</value>
+                    <value name="parentWsd">wmSalesforceConnector_v53.doctypes</value>
                   </record>
                 </array>
                 <value name="rec_closed">true</value>
@@ -358,18 +359,18 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/Name;1;0" TO="/createAccountConnectorServiceInput;2;0/requestBody;2;0/tns:create;2;0/tns:sObjects;2;1/ens:Name;1;0">
+<MAPCOPY FROM="/Name;1;0" TO="/createAccountConnectorService53Input;2;0/requestBody;2;0/tns:create;2;0/tns:sObjects;2;1/ens:Name;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/City;1;0" TO="/createAccountConnectorServiceInput;2;0/requestBody;2;0/tns:create;2;0/tns:sObjects;2;1/ens:BillingCity;1;0">
+<MAPCOPY FROM="/City;1;0" TO="/createAccountConnectorService53Input;2;0/requestBody;2;0/tns:create;2;0/tns:sObjects;2;1/ens:BillingCity;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/Phone;1;0" TO="/createAccountConnectorServiceInput;2;0/requestBody;2;0/tns:create;2;0/tns:sObjects;2;1/ens:Phone;1;0">
+<MAPCOPY FROM="/Phone;1;0" TO="/createAccountConnectorService53Input;2;0/requestBody;2;0/tns:create;2;0/tns:sObjects;2;1/ens:Phone;1;0">
 </MAPCOPY>
 </MAP>
 </INVOKE>
 
-<INVOKE TIMEOUT="" SERVICE="SIQACloudStreamsTests:retrieveAccountConnectorService" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="SIQACloudStreamsTests.services53:retrieveAccountConnectorService53" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -393,7 +394,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">retrieveAccountConnectorServiceInput</value>
+        <value name="field_name">retrieveAccountConnectorService53Input</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -519,7 +520,7 @@
                           <value name="ncName">ID</value>
                         </record>
                       </array>
-                      <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
+                      <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
                     </record>
                     <value name="nillable">false</value>
                     <value name="field_xmlns">urn:partner.soap.sforce.com</value>
@@ -571,7 +572,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">createAccountConnectorServiceInput</value>
+        <value name="field_name">createAccountConnectorService53Input</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -642,7 +643,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">createAccountConnectorServiceOutput</value>
+        <value name="field_name">createAccountConnectorService53Output</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -724,8 +725,8 @@
                     <value name="field_xmlns">urn:partner.soap.sforce.com</value>
                     <value name="form_qualified">false</value>
                     <value name="is_global">false</value>
-                    <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                    <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
+                    <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
+                    <value name="docTypeDomain">da903c0b8a5748579d0f9b5a9d2afba2</value>
                     <value name="is_soap_array_encoding_used">false</value>
                     <array name="rec_fields" type="record" depth="1">
                       <record javaclass="com.wm.util.Values">
@@ -740,8 +741,8 @@
                         <value name="field_xmlns">urn:partner.soap.sforce.com</value>
                         <value name="form_qualified">false</value>
                         <value name="is_global">false</value>
-                        <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                        <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
+                        <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
+                        <value name="docTypeDomain">da903c0b8a5748579d0f9b5a9d2afba2</value>
                         <value name="is_soap_array_encoding_used">false</value>
                         <array name="rec_fields" type="record" depth="1">
                         </array>
@@ -751,6 +752,7 @@
                         </record>
                         <value name="schemaRegistered">true</value>
                         <value name="modifiable">true</value>
+                        <value name="parentWsd">wmSalesforceConnector_v53.doctypes</value>
                       </record>
                       <record javaclass="com.wm.util.Values">
                         <value name="node_type">record</value>
@@ -769,7 +771,7 @@
                               <value name="ncName">ID</value>
                             </record>
                           </array>
-                          <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
+                          <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
                         </record>
                         <value name="nillable">true</value>
                         <value name="field_xmlns">urn:partner.soap.sforce.com</value>
@@ -806,6 +808,7 @@
                     </record>
                     <value name="schemaRegistered">true</value>
                     <value name="modifiable">true</value>
+                    <value name="parentWsd">wmSalesforceConnector_v53.doctypes</value>
                   </record>
                 </array>
                 <value name="rec_closed">true</value>
@@ -840,12 +843,12 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/createAccountConnectorServiceOutput;2;0/responseBody;2;0/tns:createResponse;2;0/tns:result;2;1/tns:id;1;0" TO="/retrieveAccountConnectorServiceInput;2;0/requestBody;2;0/tns:retrieve;2;0/tns:ids;1;1">
+<MAPCOPY FROM="/createAccountConnectorService53Output;2;0/responseBody;2;0/tns:createResponse;2;0/tns:result;2;1/tns:id;1;0" TO="/retrieveAccountConnectorService53Input;2;0/requestBody;2;0/tns:retrieve;2;0/tns:ids;1;1">
 </MAPCOPY>
 </MAP>
 </INVOKE>
 
-<INVOKE TIMEOUT="" SERVICE="SIQACloudStreamsTests:deleteAccountConnectorService" VALIDATE-IN="$none" VALIDATE-OUT="$none">
+<INVOKE TIMEOUT="" SERVICE="SIQACloudStreamsTests.services53:deleteAccountConnectorService53" VALIDATE-IN="$none" VALIDATE-OUT="$none">
   <COMMENT></COMMENT>
 
   <!-- nodes -->
@@ -869,7 +872,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteAccountConnectorServiceInput</value>
+        <value name="field_name">deleteAccountConnectorService53Input</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -884,7 +887,6 @@
             <value name="field_name">requestHeaders</value>
             <value name="field_type">record</value>
             <value name="field_dim">0</value>
-            <value name="wrapper_type">IData</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -899,7 +901,6 @@
             <value name="field_name">requestBody</value>
             <value name="field_type">record</value>
             <value name="field_dim">0</value>
-            <value name="wrapper_type">IData</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -912,7 +913,6 @@
                 <value name="field_type">record</value>
                 <value name="field_dim">0</value>
                 <value name="field_opt">true</value>
-                <value name="wrapper_type">IData</value>
                 <value name="nillable">false</value>
                 <value name="field_xmlns">urn:partner.soap.sforce.com</value>
                 <value name="form_qualified">false</value>
@@ -944,7 +944,7 @@
                           <value name="ncName">ID</value>
                         </record>
                       </array>
-                      <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
+                      <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
                     </record>
                     <value name="nillable">false</value>
                     <value name="field_xmlns">urn:partner.soap.sforce.com</value>
@@ -967,7 +967,6 @@
             <value name="field_type">record</value>
             <value name="field_dim">0</value>
             <value name="field_opt">true</value>
-            <value name="wrapper_type">IData</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -1012,7 +1011,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">retrieveAccountConnectorServiceInput</value>
+        <value name="field_name">retrieveAccountConnectorService53Input</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1026,7 +1025,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">createAccountConnectorServiceInput</value>
+        <value name="field_name">createAccountConnectorService53Input</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="nillable">true</value>
@@ -1097,7 +1096,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">createAccountConnectorServiceOutput</value>
+        <value name="field_name">createAccountConnectorService53Output</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -1112,7 +1111,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">retrieveAccountConnectorServiceOutput</value>
+        <value name="field_name">retrieveAccountConnectorService53Output</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -1194,8 +1193,8 @@
                     <value name="field_xmlns">urn:partner.soap.sforce.com</value>
                     <value name="form_qualified">false</value>
                     <value name="is_global">false</value>
-                    <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                    <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
+                    <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
+                    <value name="docTypeDomain">da903c0b8a5748579d0f9b5a9d2afba2</value>
                     <value name="is_soap_array_encoding_used">false</value>
                     <array name="rec_fields" type="record" depth="1">
                       <record javaclass="com.wm.util.Values">
@@ -1263,7 +1262,7 @@
                               <value name="ncName">ID</value>
                             </record>
                           </array>
-                          <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
+                          <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
                         </record>
                         <value name="nillable">true</value>
                         <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
@@ -1302,6 +1301,7 @@
                     </record>
                     <value name="schemaRegistered">true</value>
                     <value name="modifiable">true</value>
+                    <value name="parentWsd">wmSalesforceConnector_v53.doctypes</value>
                   </record>
                 </array>
                 <value name="rec_closed">true</value>
@@ -1336,7 +1336,7 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/retrieveAccountConnectorServiceOutput;2;0/responseBody;2;0/tns:retrieveResponse;2;0/tns:result;2;1/ens:Id(1);1;0" TO="/deleteAccountConnectorServiceInput;2;0/requestBody;2;0/tns:delete;2;0/tns:ids;1;1">
+<MAPCOPY FROM="/retrieveAccountConnectorService53Output;2;0/responseBody;2;0/tns:retrieveResponse;2;0/tns:result;2;1/ens:Id(1);1;0" TO="/deleteAccountConnectorService53Input;2;0/requestBody;2;0/tns:delete;2;0/tns:ids;1;1">
 </MAPCOPY>
 </MAP>
 </INVOKE>
@@ -1461,6 +1461,20 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">requestBody</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <array name="rec_fields" type="record" depth="1">
+            </array>
+            <value name="modifiable">true</value>
+          </record>
         </array>
         <value name="modifiable">true</value>
       </record>
@@ -1475,6 +1489,20 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <array name="rec_fields" type="record" depth="1">
+          <record javaclass="com.wm.util.Values">
+            <value name="node_type">record</value>
+            <value name="node_subtype">unknown</value>
+            <value name="is_public">false</value>
+            <value name="field_name">requestBody</value>
+            <value name="field_type">record</value>
+            <value name="field_dim">0</value>
+            <value name="nillable">true</value>
+            <value name="form_qualified">false</value>
+            <value name="is_global">false</value>
+            <array name="rec_fields" type="record" depth="1">
+            </array>
+            <value name="modifiable">true</value>
+          </record>
         </array>
         <value name="modifiable">true</value>
       </record>
@@ -1489,104 +1517,6 @@
         <value name="form_qualified">false</value>
         <value name="is_global">false</value>
         <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteAccountConnectorService531Input</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">retrieveAccountConnectorService531Input</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">createAccountConnectorService531Input</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">createAccountConnectorService53Output</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">retrieveAccountConnectorService53Output</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteAccountConnectorService53Output</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteAccountConnectorServiceInput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
           <record javaclass="com.wm.util.Values">
             <value name="node_type">record</value>
             <value name="node_subtype">unknown</value>
@@ -1601,104 +1531,6 @@
             </array>
             <value name="modifiable">true</value>
           </record>
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">retrieveAccountConnectorServiceInput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-          <record javaclass="com.wm.util.Values">
-            <value name="node_type">record</value>
-            <value name="node_subtype">unknown</value>
-            <value name="is_public">false</value>
-            <value name="field_name">requestBody</value>
-            <value name="field_type">record</value>
-            <value name="field_dim">0</value>
-            <value name="nillable">true</value>
-            <value name="form_qualified">false</value>
-            <value name="is_global">false</value>
-            <array name="rec_fields" type="record" depth="1">
-            </array>
-            <value name="modifiable">true</value>
-          </record>
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">createAccountConnectorServiceInput</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-          <record javaclass="com.wm.util.Values">
-            <value name="node_type">record</value>
-            <value name="node_subtype">unknown</value>
-            <value name="is_public">false</value>
-            <value name="field_name">requestBody</value>
-            <value name="field_type">record</value>
-            <value name="field_dim">0</value>
-            <value name="nillable">true</value>
-            <value name="form_qualified">false</value>
-            <value name="is_global">false</value>
-            <array name="rec_fields" type="record" depth="1">
-            </array>
-            <value name="modifiable">true</value>
-          </record>
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">createAccountConnectorService531Output</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">retrieveAccountConnectorService531Output</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
-        </array>
-        <value name="modifiable">true</value>
-      </record>
-      <record javaclass="com.wm.util.Values">
-        <value name="node_type">record</value>
-        <value name="node_subtype">unknown</value>
-        <value name="is_public">false</value>
-        <value name="field_name">deleteAccountConnectorService531Output</value>
-        <value name="field_type">record</value>
-        <value name="field_dim">0</value>
-        <value name="nillable">true</value>
-        <value name="form_qualified">false</value>
-        <value name="is_global">false</value>
-        <array name="rec_fields" type="record" depth="1">
         </array>
         <value name="modifiable">true</value>
       </record>
@@ -1763,7 +1595,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">createAccountConnectorServiceOutput</value>
+        <value name="field_name">createAccountConnectorService53Output</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -1845,7 +1677,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">retrieveAccountConnectorServiceOutput</value>
+        <value name="field_name">retrieveAccountConnectorService53Output</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -1927,8 +1759,8 @@
                     <value name="field_xmlns">urn:partner.soap.sforce.com</value>
                     <value name="form_qualified">false</value>
                     <value name="is_global">false</value>
-                    <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                    <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
+                    <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
+                    <value name="docTypeDomain">da903c0b8a5748579d0f9b5a9d2afba2</value>
                     <value name="is_soap_array_encoding_used">false</value>
                     <array name="rec_fields" type="record" depth="1">
                       <record javaclass="com.wm.util.Values">
@@ -1996,7 +1828,7 @@
                               <value name="ncName">ID</value>
                             </record>
                           </array>
-                          <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
+                          <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v53#SforceService</value>
                         </record>
                         <value name="nillable">true</value>
                         <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
@@ -2068,6 +1900,7 @@
                     </record>
                     <value name="schemaRegistered">true</value>
                     <value name="modifiable">true</value>
+                    <value name="parentWsd">wmSalesforceConnector_v53.doctypes</value>
                   </record>
                 </array>
                 <value name="rec_closed">true</value>
@@ -2098,7 +1931,7 @@
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="is_public">false</value>
-        <value name="field_name">deleteAccountConnectorServiceOutput</value>
+        <value name="field_name">deleteAccountConnectorService53Output</value>
         <value name="field_type">record</value>
         <value name="field_dim">0</value>
         <value name="wrapper_type">IData</value>
@@ -2184,6 +2017,15 @@
 
   <!-- nodes -->
 
+<MAPCOPY FROM="/retrieveAccountConnectorService53Output;2;0/responseBody;2;0/tns:retrieveResponse;2;0/tns:result;2;1/ens:Name;1;0" TO="/Name;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/retrieveAccountConnectorService53Output;2;0/responseBody;2;0/tns:retrieveResponse;2;0/tns:result;2;1/ens:BillingCity;1;0" TO="/City;1;0">
+</MAPCOPY>
+
+<MAPCOPY FROM="/retrieveAccountConnectorService53Output;2;0/responseBody;2;0/tns:retrieveResponse;2;0/tns:result;2;1/ens:Phone;1;0" TO="/Phone;1;0">
+</MAPCOPY>
+
 <MAPDELETE FIELD="/deleteAccountConnectorService53Input;2;0">
 </MAPDELETE>
 
@@ -2202,52 +2044,7 @@
 <MAPDELETE FIELD="/deleteAccountConnectorService53Output;2;0">
 </MAPDELETE>
 
-<MAPDELETE FIELD="/createAccountConnectorService531Output;2;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/retrieveAccountConnectorService531Output;2;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/deleteAccountConnectorService531Output;2;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/deleteAccountConnectorService531Input;2;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/retrieveAccountConnectorService531Input;2;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/createAccountConnectorService531Input;2;0">
-</MAPDELETE>
-
-<MAPCOPY FROM="/retrieveAccountConnectorServiceOutput;2;0/responseBody;2;0/tns:retrieveResponse;2;0/tns:result;2;1/ens:Name;1;0" TO="/Name;1;0">
+<MAPCOPY FROM="/deleteAccountConnectorService53Output;2;0/statusMessage;1;0" TO="/ExecutionStatus;1;0">
 </MAPCOPY>
-
-<MAPCOPY FROM="/retrieveAccountConnectorServiceOutput;2;0/responseBody;2;0/tns:retrieveResponse;2;0/tns:result;2;1/ens:BillingCity;1;0" TO="/City;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/retrieveAccountConnectorServiceOutput;2;0/responseBody;2;0/tns:retrieveResponse;2;0/tns:result;2;1/ens:Phone;1;0" TO="/Phone;1;0">
-</MAPCOPY>
-
-<MAPCOPY FROM="/deleteAccountConnectorServiceOutput;2;0/statusMessage;1;0" TO="/ExecutionStatus;1;0">
-</MAPCOPY>
-
-<MAPDELETE FIELD="/deleteAccountConnectorServiceInput;2;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/retrieveAccountConnectorServiceInput;2;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/createAccountConnectorServiceInput;2;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/createAccountConnectorServiceOutput;2;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/retrieveAccountConnectorServiceOutput;2;0">
-</MAPDELETE>
-
-<MAPDELETE FIELD="/deleteAccountConnectorServiceOutput;2;0">
-</MAPDELETE>
 </MAP>
 </FLOW>

@@ -2,6 +2,12 @@
 <services>
     <cloudstreamsCollectionKeys serviceName="WmCloudStreams.SoapVS">
         <servicesKeys>
+            <keyDetails collectionKey="SIQACloudStreamsTests.services531:createAccountConnectorService531" connectorServiceName="SIQACloudStreamsTests.services531:createAccountConnectorService531"/>
+            <keyDetails collectionKey="SIQACloudStreamsTests.services531:deleteAccountConnectorService531" connectorServiceName="SIQACloudStreamsTests.services531:deleteAccountConnectorService531"/>
+            <keyDetails collectionKey="SIQACloudStreamsTests.services531:retrieveAccountConnectorService531" connectorServiceName="SIQACloudStreamsTests.services531:retrieveAccountConnectorService531"/>
+            <keyDetails collectionKey="SIQACloudStreamsTests.services53:createAccountConnectorService53" connectorServiceName="SIQACloudStreamsTests.services53:createAccountConnectorService53"/>
+            <keyDetails collectionKey="SIQACloudStreamsTests.services53:deleteAccountConnectorService53" connectorServiceName="SIQACloudStreamsTests.services53:deleteAccountConnectorService53"/>
+            <keyDetails collectionKey="SIQACloudStreamsTests.services53:retrieveAccountConnectorService53" connectorServiceName="SIQACloudStreamsTests.services53:retrieveAccountConnectorService53"/>
             <keyDetails collectionKey="SIQACloudStreamsTests:createAccountConnectorService" connectorServiceName="SIQACloudStreamsTests:createAccountConnectorService"/>
             <keyDetails collectionKey="SIQACloudStreamsTests:deleteAccountConnectorService" connectorServiceName="SIQACloudStreamsTests:deleteAccountConnectorService"/>
             <keyDetails collectionKey="SIQACloudStreamsTests:retrieveAccountConnectorService" connectorServiceName="SIQACloudStreamsTests:retrieveAccountConnectorService"/>
