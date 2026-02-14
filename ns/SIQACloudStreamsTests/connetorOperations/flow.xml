@@ -88,7 +88,7 @@
                     <value name="form_qualified">false</value>
                     <value name="is_global">false</value>
                     <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                    <value name="docTypeDomain">1d775cd9928b4e5385cc471d5130725a</value>
+                    <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
                     <value name="is_soap_array_encoding_used">false</value>
                     <array name="rec_fields" type="record" depth="1">
                       <record javaclass="com.wm.util.Values">
@@ -856,7 +856,7 @@
                     <value name="form_qualified">false</value>
                     <value name="is_global">false</value>
                     <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                    <value name="docTypeDomain">1d775cd9928b4e5385cc471d5130725a</value>
+                    <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
                     <value name="is_soap_array_encoding_used">false</value>
                     <array name="rec_fields" type="record" depth="1">
                       <record javaclass="com.wm.util.Values">
@@ -872,7 +872,7 @@
                         <value name="form_qualified">false</value>
                         <value name="is_global">false</value>
                         <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                        <value name="docTypeDomain">1d775cd9928b4e5385cc471d5130725a</value>
+                        <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
                         <value name="is_soap_array_encoding_used">false</value>
                         <array name="rec_fields" type="record" depth="1">
                         </array>
@@ -1197,6 +1197,7 @@
             <value name="field_name">requestHeaders</value>
             <value name="field_type">record</value>
             <value name="field_dim">0</value>
+            <value name="wrapper_type">IData</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -1211,6 +1212,7 @@
             <value name="field_name">requestBody</value>
             <value name="field_type">record</value>
             <value name="field_dim">0</value>
+            <value name="wrapper_type">IData</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -1223,6 +1225,7 @@
                 <value name="field_type">record</value>
                 <value name="field_dim">0</value>
                 <value name="field_opt">true</value>
+                <value name="wrapper_type">IData</value>
                 <value name="nillable">false</value>
                 <value name="field_xmlns">urn:partner.soap.sforce.com</value>
                 <value name="form_qualified">false</value>
@@ -1277,6 +1280,7 @@
             <value name="field_type">record</value>
             <value name="field_dim">0</value>
             <value name="field_opt">true</value>
+            <value name="wrapper_type">IData</value>
             <value name="nillable">true</value>
             <value name="form_qualified">false</value>
             <value name="is_global">false</value>
@@ -1404,7 +1408,7 @@
                     <value name="form_qualified">false</value>
                     <value name="is_global">false</value>
                     <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                    <value name="docTypeDomain">1d775cd9928b4e5385cc471d5130725a</value>
+                    <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
                     <value name="is_soap_array_encoding_used">false</value>
                     <array name="rec_fields" type="record" depth="1">
                       <record javaclass="com.wm.util.Values">
@@ -1500,81 +1504,6 @@
                           </array>
                         </record>
                         <value name="nillable">false</value>
-                        <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
-                        <value name="form_qualified">false</value>
-                        <value name="is_global">false</value>
-                      </record>
-                      <record javaclass="com.wm.util.Values">
-                        <value name="node_type">field</value>
-                        <value name="node_subtype">unknown</value>
-                        <value name="node_comment">Account Name</value>
-                        <value name="is_public">false</value>
-                        <value name="field_name">ens:Name</value>
-                        <value name="field_type">string</value>
-                        <value name="field_dim">0</value>
-                        <value name="field_opt">true</value>
-                        <record name="field_content_type" javaclass="com.wm.util.Values">
-                          <value name="contentType">1</value>
-                          <value name="internalType">reference</value>
-                          <value name="dataTypeVersion">dtVersion2</value>
-                          <array name="targetNames" type="record" depth="1">
-                            <record javaclass="com.wm.util.Values">
-                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                              <value name="ncName">string</value>
-                            </record>
-                          </array>
-                        </record>
-                        <value name="nillable">false</value>
-                        <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
-                        <value name="form_qualified">false</value>
-                        <value name="is_global">false</value>
-                      </record>
-                      <record javaclass="com.wm.util.Values">
-                        <value name="node_type">field</value>
-                        <value name="node_subtype">unknown</value>
-                        <value name="node_comment">Billing City</value>
-                        <value name="is_public">false</value>
-                        <value name="field_name">ens:BillingCity</value>
-                        <value name="field_type">string</value>
-                        <value name="field_dim">0</value>
-                        <value name="field_opt">true</value>
-                        <record name="field_content_type" javaclass="com.wm.util.Values">
-                          <value name="contentType">1</value>
-                          <value name="internalType">reference</value>
-                          <value name="dataTypeVersion">dtVersion2</value>
-                          <array name="targetNames" type="record" depth="1">
-                            <record javaclass="com.wm.util.Values">
-                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                              <value name="ncName">string</value>
-                            </record>
-                          </array>
-                        </record>
-                        <value name="nillable">true</value>
-                        <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
-                        <value name="form_qualified">false</value>
-                        <value name="is_global">false</value>
-                      </record>
-                      <record javaclass="com.wm.util.Values">
-                        <value name="node_type">field</value>
-                        <value name="node_subtype">unknown</value>
-                        <value name="node_comment">Account Phone</value>
-                        <value name="is_public">false</value>
-                        <value name="field_name">ens:Phone</value>
-                        <value name="field_type">string</value>
-                        <value name="field_dim">0</value>
-                        <value name="field_opt">true</value>
-                        <record name="field_content_type" javaclass="com.wm.util.Values">
-                          <value name="contentType">1</value>
-                          <value name="internalType">reference</value>
-                          <value name="dataTypeVersion">dtVersion2</value>
-                          <array name="targetNames" type="record" depth="1">
-                            <record javaclass="com.wm.util.Values">
-                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                              <value name="ncName">string</value>
-                            </record>
-                          </array>
-                        </record>
-                        <value name="nillable">true</value>
                         <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
                         <value name="form_qualified">false</value>
                         <value name="is_global">false</value>
@@ -1801,6 +1730,17 @@
         <value name="is_global">false</value>
       </record>
       <record javaclass="com.wm.util.Values">
+        <value name="node_type">unknown</value>
+        <value name="node_subtype">unknown</value>
+        <value name="is_public">false</value>
+        <value name="field_name">Status</value>
+        <value name="field_type">string</value>
+        <value name="field_dim">0</value>
+        <value name="nillable">true</value>
+        <value name="form_qualified">false</value>
+        <value name="is_global">false</value>
+      </record>
+      <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
         <value name="node_comment"></value>
@@ -1810,7 +1750,7 @@
           <value name="field_password">false</value>
         </record>
         <value name="is_public">false</value>
-        <value name="field_name">Status</value>
+        <value name="field_name">ExecutionStatus</value>
         <value name="field_type">string</value>
         <value name="field_dim">0</value>
         <array name="field_options" type="value" depth="1">
@@ -1924,7 +1864,7 @@
                     <value name="form_qualified">false</value>
                     <value name="is_global">false</value>
                     <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                    <value name="docTypeDomain">1d775cd9928b4e5385cc471d5130725a</value>
+                    <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
                     <value name="is_soap_array_encoding_used">false</value>
                     <array name="rec_fields" type="record" depth="1">
                       <record javaclass="com.wm.util.Values">
@@ -2025,77 +1965,35 @@
                         <value name="is_global">false</value>
                       </record>
                       <record javaclass="com.wm.util.Values">
-                        <value name="node_type">field</value>
+                        <value name="node_type">unknown</value>
                         <value name="node_subtype">unknown</value>
-                        <value name="node_comment">Account Name</value>
                         <value name="is_public">false</value>
                         <value name="field_name">ens:Name</value>
                         <value name="field_type">string</value>
                         <value name="field_dim">0</value>
-                        <value name="field_opt">true</value>
-                        <record name="field_content_type" javaclass="com.wm.util.Values">
-                          <value name="contentType">1</value>
-                          <value name="internalType">reference</value>
-                          <value name="dataTypeVersion">dtVersion2</value>
-                          <array name="targetNames" type="record" depth="1">
-                            <record javaclass="com.wm.util.Values">
-                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                              <value name="ncName">string</value>
-                            </record>
-                          </array>
-                        </record>
-                        <value name="nillable">false</value>
-                        <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
+                        <value name="nillable">true</value>
                         <value name="form_qualified">false</value>
                         <value name="is_global">false</value>
                       </record>
                       <record javaclass="com.wm.util.Values">
-                        <value name="node_type">field</value>
+                        <value name="node_type">unknown</value>
                         <value name="node_subtype">unknown</value>
-                        <value name="node_comment">Billing City</value>
                         <value name="is_public">false</value>
                         <value name="field_name">ens:BillingCity</value>
                         <value name="field_type">string</value>
                         <value name="field_dim">0</value>
-                        <value name="field_opt">true</value>
-                        <record name="field_content_type" javaclass="com.wm.util.Values">
-                          <value name="contentType">1</value>
-                          <value name="internalType">reference</value>
-                          <value name="dataTypeVersion">dtVersion2</value>
-                          <array name="targetNames" type="record" depth="1">
-                            <record javaclass="com.wm.util.Values">
-                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                              <value name="ncName">string</value>
-                            </record>
-                          </array>
-                        </record>
                         <value name="nillable">true</value>
-                        <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
                         <value name="form_qualified">false</value>
                         <value name="is_global">false</value>
                       </record>
                       <record javaclass="com.wm.util.Values">
-                        <value name="node_type">field</value>
+                        <value name="node_type">unknown</value>
                         <value name="node_subtype">unknown</value>
-                        <value name="node_comment">Account Phone</value>
                         <value name="is_public">false</value>
                         <value name="field_name">ens:Phone</value>
                         <value name="field_type">string</value>
                         <value name="field_dim">0</value>
-                        <value name="field_opt">true</value>
-                        <record name="field_content_type" javaclass="com.wm.util.Values">
-                          <value name="contentType">1</value>
-                          <value name="internalType">reference</value>
-                          <value name="dataTypeVersion">dtVersion2</value>
-                          <array name="targetNames" type="record" depth="1">
-                            <record javaclass="com.wm.util.Values">
-                              <value name="xmlns">http://www.w3.org/2001/XMLSchema</value>
-                              <value name="ncName">string</value>
-                            </record>
-                          </array>
-                        </record>
                         <value name="nillable">true</value>
-                        <value name="field_xmlns">urn:sobject.partner.soap.sforce.com</value>
                         <value name="form_qualified">false</value>
                         <value name="is_global">false</value>
                       </record>
@@ -2219,7 +2117,7 @@
                     <value name="form_qualified">false</value>
                     <value name="is_global">false</value>
                     <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                    <value name="docTypeDomain">1d775cd9928b4e5385cc471d5130725a</value>
+                    <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
                     <value name="is_soap_array_encoding_used">false</value>
                     <array name="rec_fields" type="record" depth="1">
                       <record javaclass="com.wm.util.Values">
@@ -2235,7 +2133,7 @@
                         <value name="form_qualified">false</value>
                         <value name="is_global">false</value>
                         <value name="schemaDomain">com.softwareag.cloudstreams.salesforce_v51#SforceService</value>
-                        <value name="docTypeDomain">1d775cd9928b4e5385cc471d5130725a</value>
+                        <value name="docTypeDomain">77c8b2a47520427d87e291c2a0c52945</value>
                         <value name="is_soap_array_encoding_used">false</value>
                         <array name="rec_fields" type="record" depth="1">
                         </array>
