@@ -13,7 +13,7 @@
     <value name="providerName">WmSalesforceProvider</value>
     <value name="providerConnectionType">sagcloud</value>
     <record name="connectionGroupProperties" javaclass="com.wm.util.Values">
-      <value name="cn.providerUrl">https://login.salesforce.com/services/Soap/u/51.0</value>
+      <value name="cn.providerUrl">https://orgfarm-560b08beca-dev-ed.develop.my.salesforce.com/services/Soap/u/51.0</value>
       <value name="cn.connectTimeout">180000</value>
       <value name="cn.readTimeout">180000</value>
       <value name="cn.socketStaleCheck">true</value>
@@ -34,7 +34,7 @@
       <value name="cn.enableCompression">false</value>
       <value name="cn.enableSNI">true</value>
       <value name="cn.sniServerName"></value>
-      <value name="cr.username">cspro@softwareag.com</value>
+      <value name="cr.username">siqadada.222c65345893@agentforce.com</value>
       <value name="cr.password">SIQACloudStreamsTests:SalesforceCRM51.cr.password</value>
       <value name="cr.authSchemeType">basic</value>
       <value name="cr.preemptiveAuthEnabled">false</value>
